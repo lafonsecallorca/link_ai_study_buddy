@@ -66,6 +66,7 @@
   </li>
       
 ![Study Buddy Summary](static/images/summary.png)
+
   <li><strong>URL Input:</strong>
       <ul>
           <li>Enter a URL in the designated area and click "Submit."</li>
