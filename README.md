@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Study Buddy AI Bot</title>
-</head>
-
-<body>
-
     <h1>Study Buddy AI Bot</h1>
 
     <p>Study Buddy is your personal AI bot designed to assist you in summarizing articles, providing active reading prompts, and generating review questions. Whether you input plain text or a URL, Study Buddy leverages state-of-the-art natural language processing models to enhance your study experience.</p>
@@ -88,7 +77,3 @@
     <h2>Acknowledgments</h2>
 
     <p>Special thanks to the developers of the Transformers library and FastAPI for their invaluable contributions to the project.</p>
-
-</body>
-
-</html>
