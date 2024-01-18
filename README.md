@@ -31,7 +31,7 @@
   <li>Clone the repository:</li>
 </ol>
 
-<pre><code>git clone https://github.com/your-username/study-buddy.git</code></pre>
+<pre><code>git clone https://github.com/lafonsecallorca/link_ai_study_buddy.git</code></pre>
 
 <ol start="2">
   <li>Install dependencies:</li>
@@ -70,7 +70,7 @@
 
 <h2>Contributing</h2>
 
-<p>Contributions are welcome! If you have ideas for improvements or encounter issues, feel free to <a href="https://github.com/your-username/study-buddy/issues">open an issue</a> or submit a pull request.</p>
+<p>Contributions are welcome! If you have ideas for improvements or encounter issues, feel free to <a href="https://github.com/lafonsecallorca/link_ai_study_buddy/issues">open an issue</a> or submit a pull request.</p>
 
 <h2>License</h2>
 
