@@ -65,7 +65,7 @@
       </ul>
   </li>
       
-![Study Buddy Summary](static/images/summary.png)
+
 
   <li><strong>URL Input:</strong>
       <ul>
@@ -75,12 +75,14 @@
   </li>
 </ol>
 
+![Study Buddy Summary](static/images/summary.png)
 
-![Study Buddy Reading](static/images/reading.png)
 
 <h2>Contributing</h2>
 
 <p>Contributions are welcome! If you have ideas for improvements or encounter issues, feel free to <a href="https://github.com/lafonsecallorca/link_ai_study_buddy/issues">open an issue</a> or submit a pull request.</p>
+
+![Study Buddy Reading](static/images/reading.png)
 
 <h2>License</h2>
 
