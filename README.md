@@ -90,4 +90,4 @@
 
 <h2>Acknowledgments</h2>
 
-<p>Special thanks to the developers of the Transformers library and FastAPI for their invaluable contributions to the project.</p>
+<p>Special thanks to the developers of the Transformers library for their invaluable contributions to the project.</p>
