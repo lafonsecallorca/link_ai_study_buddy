@@ -6,6 +6,15 @@
 
 ![Study Buddy Logo](static/images/study_buddy_logo.png)
 
+<h2>Why Study Buddy?</h2>
+
+    <p>Study Buddy emerged from the frustration of lacking a reliable tool for summarizing articles and generating review questions, particularly when entering URLs into chat platforms like ChatGPT. As someone who values recall for effective studying, existing solutions fell short.</p>
+
+    <p>Motivated by this frustration, Study Buddy was created as the ultimate study companion. It addresses the need for a tool that not only delivers concise article summaries but also actively engages users with content through reading prompts and facilitates effective review with generated questions and answers.</p>
+
+    <p>Built on personal experiences, Study Buddy aims to provide a seamless and efficient solution for enhancing the study experience. It's not just a project; it's a practical response to the challenges faced during the study process. By sharing Study Buddy, the goal is to contribute to a more efficient and enjoyable learning journey for students, researchers, and anyone passionate about effective learning.</p>
+
+
 <h2>Features</h2>
 
 <ul>
