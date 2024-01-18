@@ -64,9 +64,9 @@
           <li>Receive a summary, active reading prompts, and review questions.</li>
       </ul>
   </li>
-  <li><strong>URL Input:</strong>
-        
+      
 ![Study Buddy Summary](static/images/summary.png)
+  <li><strong>URL Input:</strong>
       <ul>
           <li>Enter a URL in the designated area and click "Submit."</li>
           <li>Receive a summary, active reading prompts, and review questions based on the content of the provided URL.</li>
