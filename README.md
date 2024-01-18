@@ -4,6 +4,8 @@
 
 <p>Study Buddy is your personal AI bot designed to assist you in summarizing articles, providing active reading prompts, and generating review questions. Whether you input plain text or a URL, Study Buddy leverages state-of-the-art natural language processing models to enhance your study experience.</p>
 
+![Study Buddy Logo](static/images/study_buddy_logo.png)
+
 <h2>Features</h2>
 
 <ul>
