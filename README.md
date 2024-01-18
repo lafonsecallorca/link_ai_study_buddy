@@ -13,7 +13,7 @@
   <li><strong>Active Reading Prompts:</strong> Receive prompts to engage actively with the content while reading.</li>
   <li><strong>Review Questions & Answers:</strong> Generate questions and answers for effective review and understanding.</li>
 </ul>
-
+![Study Buddy Logo](static/images/url.png)
 <h2>Getting Started</h2>
 
 <h3>Prerequisites</h3>
@@ -69,7 +69,8 @@
       </ul>
   </li>
 </ol>
-
+![Study Buddy Logo](static/images/summary.png)
+![Study Buddy Logo](static/images/reading.png)
 <h2>Contributing</h2>
 
 <p>Contributions are welcome! If you have ideas for improvements or encounter issues, feel free to <a href="https://github.com/lafonsecallorca/link_ai_study_buddy/issues">open an issue</a> or submit a pull request.</p>
