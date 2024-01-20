@@ -18,8 +18,6 @@ tokenizer = AutoTokenizer.from_pretrained("facebook/bart-large-cnn")
 model = AutoModelForSeq2SeqLM.from_pretrained("facebook/bart-large-cnn")
 question_tokenizer = AutoTokenizer.from_pretrained("voidful/context-only-question-generator")
 question_model = AutoModelForSeq2SeqLM.from_pretrained("voidful/context-only-question-generator")
-pair_tokenizer = AutoTokenizer.from_pretrained("mojians/E2E-QA-Mining", legacy=False)
-pair_model = AutoModelForSeq2SeqLM.from_pretrained("mojians/E2E-QA-Mining")
 max_token_limit = 1024
 t5_max_token = 512
 
@@ -103,24 +101,5 @@ async def generate_questions(long_summary: InputToAi):
 
     return questions_short
 
-@app.get("/qa_pairs")
-async def generate_pairs(short_summary_input: InputToAi):
-    summary_short = await generate_summary(short_summary_input)
-
-    question_pair = []
-
-    for question in summary_short:
-        question = "context:" + question + ".generate questions and answers:"
-        tokenized_text = pair_tokenizer(question, return_tensors="pt", max_length=t5_max_token, truncation=True, padding=True)
-        decoder_input_ids = pair_model.generate(**tokenized_text, num_beams=2, max_length=300, length_penalty=2.0, num_return_sequences=1)
-        generated_question = pair_tokenizer.decode(decoder_input_ids[0], skip_special_tokens=True)
-        question_pair.append(generated_question)
-
-    new_questions = []
-    for q in question_pair:
-        part = q.split('<sep>')
-        if part:
-            new_questions.append(part[0].strip())
-    return new_questions
 
 

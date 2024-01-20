@@ -29,13 +29,11 @@ def read_url():
         summary = summary_response.text
         read_qs_response = helper_request_method(api_url, "read_along_qs", website_text)
         read_qs = read_qs_response.text
-        qa_pairs_response = helper_request_method(api_url, "qa_pairs", website_text)
-        qa_pairs = qa_pairs_response.text
         summary_lines = json.loads(summary)
         read_qs_lines = json.loads(read_qs)
-        qa_pairs_lines = json.loads(qa_pairs)
+
         
-        return render_template('index.html', summary=summary_lines, read_qs=read_qs_lines, qa_pair=qa_pairs_lines)
+        return render_template('index.html', summary=summary_lines, read_qs=read_qs_lines)
      
     else:
         invalid_url = True
@@ -64,13 +62,11 @@ def read_text():
         summary = response.text
         read_qs_response = helper_request_method(api_url, "read_along_qs", url)
         read_qs = read_qs_response.text
-        qa_pairs_response = helper_request_method(api_url, "qa_pairs", url)
-        qa_pairs = qa_pairs_response.text
         summary_lines = json.loads(summary)
         read_qs_lines = json.loads(read_qs)
-        qa_pairs_lines = json.loads(qa_pairs)
+
         
-        return render_template('index.html', summa=summary_lines, read_q=read_qs_lines, qa=qa_pairs_lines, scroll_to_intro=scroll_to_intro, invalid_text=invalid_text)
+        return render_template('index.html', summa=summary_lines, read_q=read_qs_lines, scroll_to_intro=scroll_to_intro, invalid_text=invalid_text)
      
     else:
         # Handle non-successful responses
